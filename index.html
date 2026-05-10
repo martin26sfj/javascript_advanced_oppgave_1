@@ -1,11 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="no">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Circuit de Monaco</title>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="track-wrapper">
+      <img id="track-img" src="images/monaco.png" alt="Circuit de Monaco" />
+
+      <!-- Bilen er inne i wrapperen så posisjonen er relativ til banebildet -->
+      <div id="car">🏎️</div>
+    </div>
+    <div id="info">Bruk piltasser eller klikk for å kjøre</div>
+  </body>
 </html>
